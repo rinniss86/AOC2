@@ -18,6 +18,12 @@
 		9D05ED901638BE6100840191 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D05ED8F1638BE6100840191 /* Default-568h@2x.png */; };
 		9D05ED931638BE6100840191 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D05ED921638BE6100840191 /* ViewController.m */; };
 		9D05ED961638BE6100840191 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D05ED941638BE6100840191 /* ViewController.xib */; };
+		9DE1E636163A0E9E002739C6 /* ToyMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1E635163A0E9E002739C6 /* ToyMachine.m */; };
+		9DE1E639163A0FDD002739C6 /* almost.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1E638163A0FDD002739C6 /* almost.m */; };
+		9DE1E63C163A116A002739C6 /* Element.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1E63B163A116A002739C6 /* Element.m */; };
+		9DE1E63F163A11EF002739C6 /* SkateShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1E63E163A11EF002739C6 /* SkateShop.m */; };
+		9DE1E645163A142B002739C6 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1E644163A142B002739C6 /* Board.m */; };
+		9DE1E648163A195A002739C6 /* Base_Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1E647163A195A002739C6 /* Base_Board.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,18 @@
 		9D05ED911638BE6100840191 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9D05ED921638BE6100840191 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D05ED951638BE6100840191 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9DE1E634163A0E9E002739C6 /* ToyMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToyMachine.h; sourceTree = "<group>"; };
+		9DE1E635163A0E9E002739C6 /* ToyMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToyMachine.m; sourceTree = "<group>"; };
+		9DE1E637163A0FDD002739C6 /* almost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = almost.h; sourceTree = "<group>"; };
+		9DE1E638163A0FDD002739C6 /* almost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = almost.m; sourceTree = "<group>"; };
+		9DE1E63A163A116A002739C6 /* Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Element.h; sourceTree = "<group>"; };
+		9DE1E63B163A116A002739C6 /* Element.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Element.m; sourceTree = "<group>"; };
+		9DE1E63D163A11EF002739C6 /* SkateShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkateShop.h; sourceTree = "<group>"; };
+		9DE1E63E163A11EF002739C6 /* SkateShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkateShop.m; sourceTree = "<group>"; };
+		9DE1E643163A142B002739C6 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		9DE1E644163A142B002739C6 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		9DE1E646163A195A002739C6 /* Base_Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base_Board.h; sourceTree = "<group>"; };
+		9DE1E647163A195A002739C6 /* Base_Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base_Board.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +105,20 @@
 				9D05ED891638BE6100840191 /* AppDelegate.m */,
 				9D05ED911638BE6100840191 /* ViewController.h */,
 				9D05ED921638BE6100840191 /* ViewController.m */,
+				9DE1E646163A195A002739C6 /* Base_Board.h */,
+				9DE1E647163A195A002739C6 /* Base_Board.m */,
 				9D05ED941638BE6100840191 /* ViewController.xib */,
 				9D05ED801638BE6100840191 /* Supporting Files */,
+				9DE1E634163A0E9E002739C6 /* ToyMachine.h */,
+				9DE1E635163A0E9E002739C6 /* ToyMachine.m */,
+				9DE1E63A163A116A002739C6 /* Element.h */,
+				9DE1E63B163A116A002739C6 /* Element.m */,
+				9DE1E63D163A11EF002739C6 /* SkateShop.h */,
+				9DE1E63E163A11EF002739C6 /* SkateShop.m */,
+				9DE1E637163A0FDD002739C6 /* almost.h */,
+				9DE1E638163A0FDD002739C6 /* almost.m */,
+				9DE1E643163A142B002739C6 /* Board.h */,
+				9DE1E644163A142B002739C6 /* Board.m */,
 			);
 			path = Week1;
 			sourceTree = "<group>";
@@ -176,6 +206,12 @@
 				9D05ED861638BE6100840191 /* main.m in Sources */,
 				9D05ED8A1638BE6100840191 /* AppDelegate.m in Sources */,
 				9D05ED931638BE6100840191 /* ViewController.m in Sources */,
+				9DE1E636163A0E9E002739C6 /* ToyMachine.m in Sources */,
+				9DE1E639163A0FDD002739C6 /* almost.m in Sources */,
+				9DE1E63C163A116A002739C6 /* Element.m in Sources */,
+				9DE1E63F163A11EF002739C6 /* SkateShop.m in Sources */,
+				9DE1E645163A142B002739C6 /* Board.m in Sources */,
+				9DE1E648163A195A002739C6 /* Base_Board.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +326,7 @@
 				9D05ED9B1638BE6100840191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
