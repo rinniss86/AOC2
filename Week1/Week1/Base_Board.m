@@ -8,12 +8,27 @@
 
 #import "Base_Board.h"
 
-@interface Base_Board ()
-
-@end
-
 @implementation Base_Board
 
-@synthesize 
+//Synthesize setters and getters for properties from header
+@synthesize name, numberOfLayers;
+
+-(id)init;
+{
+    // initializing from superclass NSOject inheriting from it
+    self = [super init];
+    if (self != nil)
+    {
+        [self numberOfLayers:0];      // using sythesized setters
+        [self name:nil];
+    }
+    return self;
+}
+
+-(void)calcBoardWeight
+{
+    NSLog(@"You're board weighs has %d ");
+}
+
 
 @end

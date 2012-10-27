@@ -24,15 +24,9 @@
 
 -(NSString *)printName
 {
-    NSString *retStringValue = [[NSString alloc] initWithFormat:@"Buy a %@ Deck with %i layers, it's cool"];
+    NSString *retStringValue = [[NSString alloc] initWithFormat:@"Buy a %@ Deck, it weighs %i LBS"];
     return retStringValue;
 }
 
--(int)sizeOfBoard:(int)size
-{
-    float weight = size * 1.5f;
-    float totalWeight = weight + size;
-    return totalWeight;
-}
 
 @end

@@ -16,7 +16,7 @@
     {
         _numberOfLayers = 7;
         
-        _name = @"Almost";
+        name = @"Almost";
     }
     return self;
 }

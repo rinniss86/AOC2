@@ -29,7 +29,7 @@
     {
         
         Board *toyMachine = [toyMachineBoard returnedBoardDeck:0];
-        UILabel *topBoardLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 320.0f, 100.0f)];
+        topBoardLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 320.0f, 100.0f)];
         topBoardLabel.text = [toyMachine printName];
         topBoardLabel.numberOfLines = 5;
         [self.view addSubview:topBoardLabel];
@@ -38,8 +38,8 @@
     SkateShop *almostBoard = [[SkateShop alloc] init];
     if(almostBoard != nil)
     {
-        Board *almost = [almostBoard retrunedBoardDeck:2];
-        UILabel *midBoardLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 110.0f, 320.0f, 100.0f)];
+        Board *almost = [almostBoard returnedBoardDeck:2];
+        midBoardLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 110.0f, 320.0f, 100.0f)];
         midBoardLabel.text = [almost printName];
         midBoardLabel.numberOfLines = 5;
         [self.view addSubview:midBoardLabel];
@@ -49,7 +49,7 @@
     if(elementBoard != nil)
     {
         Board *esp = [elementBoard returnedBoardDeck:1];
-        UILabel *botBoardLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 220.0f, 320.0f, 100.0f)];
+        botBoardLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 220.0f, 320.0f, 100.0f)];
         botBoardLabel.text = [esp printName];
         botBoardLabel.numberOfLines = 5;
         [self.view addSubview:botBoardLabel];
