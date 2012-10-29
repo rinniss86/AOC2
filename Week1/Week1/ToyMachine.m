@@ -7,16 +7,16 @@
 //
 
 #import "ToyMachine.h"
-#import "Board.h"
+
 
 @implementation ToyMachine
 -(id)init
 {
     if(self = [super init])
     {
-        _numberOfLayers = 8;
+        [self setNumberOfLayers:8];
     
-        _name = @"ToyMachine";
+        [self setName:@"ToyMachine"];
     }
     return self;
 }

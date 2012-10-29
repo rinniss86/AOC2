@@ -7,7 +7,6 @@
 //
 
 #import "SkateShop.h"
-#import "Board.h"
 #import "ToyMachine.h"
 #import "almost.h"
 #import "Element.h"
@@ -17,20 +16,20 @@
     
 }
 
--(Board *)returnedBoardDeck:(int)BoardDeck
++(Base_Board *)returnedBoardDeck:(int)BoardDeck
 {
     if (BoardDeck == 0)
     {
-        return [[Board alloc] initWithDetails:6 name:@"Toy Machine" size:7];
+        return [[ToyMachine alloc] init];
 
     }
     else if(BoardDeck == 1)
     {
-        return [[Board alloc] initWithDetails:7 name:@"Element" size:8];
+        return [[almost alloc] init];
     }
     else if(BoardDeck == 2)
     {
-        return [[Board alloc] initWithDetails:8 name:@"Almost" size:6];
+        return [[Element alloc] init];
     }
     return nil;
 }

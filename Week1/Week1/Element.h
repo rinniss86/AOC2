@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface Element : NSObject
+#import "Base_Board.h"
+@interface Element : Base_Board
 
 @end

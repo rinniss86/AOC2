@@ -14,9 +14,9 @@
 {
     if(self = [super init])
     {
-        _numberOfLayers = 6;
+        [self setNumberOfLayers:6];
         
-        _name = @"Element";
+        [self setName:@"Element"];
     }
     return self;
 }

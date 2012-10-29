@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Base_Board.h"
 
-@interface ToyMachine : NSObject
+@interface ToyMachine : Base_Board
 
 @end

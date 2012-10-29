@@ -11,7 +11,7 @@
 @implementation Base_Board
 
 //Synthesize setters and getters for properties from header
-@synthesize name, numberOfLayers;
+@synthesize name, numberOfLayers, boardWeight;
 
 -(id)init;
 {
@@ -19,16 +19,20 @@
     self = [super init];
     if (self != nil)
     {
-        [self numberOfLayers:0];      // using sythesized setters
-        [self name:nil];
+        [self setNumberOfLayers:0];      // using sythesized setters
+        [self setName:nil];
     }
     return self;
 }
 
 -(void)calcBoardWeight
 {
-    NSLog(@"You're board weighs has %d ");
+    NSLog(@"You're board weighs has %f ", boardWeight);
 }
 
-
+-(NSString *)printName
+{
+    NSString *retStringValue = [[NSString alloc] initWithFormat:@"Buy a %@ Deck, it weighs %f LBS", name, boardWeight];
+    return retStringValue;
+}
 @end

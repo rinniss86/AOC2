@@ -7,16 +7,16 @@
 //
 
 #import "almost.h"
-#import "Board.h"
+
 
 @implementation almost
 -(id)init
 {
     if(self = [super init])
     {
-        _numberOfLayers = 7;
+        [self setNumberOfLayers:7];
         
-        name = @"Almost";
+        [self setName:@"Almost"];
     }
     return self;
 }

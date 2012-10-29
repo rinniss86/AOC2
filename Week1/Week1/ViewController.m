@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "Board.h"
 #import "ToyMachine.h"
 #import "almost.h"
 #import "Element.h"
@@ -24,33 +23,31 @@
 //Create Labels for the different Skateboards
 {
     //Toy Machine Label
-    SkateShop *toyMachineBoard = [[SkateShop alloc] init];
+    ToyMachine *toyMachineBoard = (ToyMachine*)[SkateShop returnedBoardDeck:0];
     if (toyMachineBoard != nil)
     {
         
-        Board *toyMachine = [toyMachineBoard returnedBoardDeck:0];
         topBoardLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 320.0f, 100.0f)];
-        topBoardLabel.text = [toyMachine printName];
+        topBoardLabel.text = [toyMachineBoard printName];
         topBoardLabel.numberOfLines = 5;
         [self.view addSubview:topBoardLabel];
     }
     //Almost Label
-    SkateShop *almostBoard = [[SkateShop alloc] init];
+    almost *almostBoard = (almost*)[SkateShop returnedBoardDeck:1];
     if(almostBoard != nil)
     {
-        Board *almost = [almostBoard returnedBoardDeck:2];
+        
         midBoardLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 110.0f, 320.0f, 100.0f)];
-        midBoardLabel.text = [almost printName];
+        midBoardLabel.text = [almostBoard printName];
         midBoardLabel.numberOfLines = 5;
         [self.view addSubview:midBoardLabel];
     }
     //Element Label
-    SkateShop *elementBoard = [[SkateShop alloc] init];
+        Element *elementBoard = (Element*)[SkateShop returnedBoardDeck:2];
     if(elementBoard != nil)
     {
-        Board *esp = [elementBoard returnedBoardDeck:1];
         botBoardLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 220.0f, 320.0f, 100.0f)];
-        botBoardLabel.text = [esp printName];
+        botBoardLabel.text = [elementBoard printName];
         botBoardLabel.numberOfLines = 5;
         [self.view addSubview:botBoardLabel];
         

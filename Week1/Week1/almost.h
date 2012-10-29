@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Base_Board.h"
 
-@interface almost : NSObject
+@interface almost : Base_Board
 
 @end
