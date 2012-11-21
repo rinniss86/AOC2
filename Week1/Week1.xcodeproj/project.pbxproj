@@ -23,7 +23,6 @@
 		9DE1E63C163A116A002739C6 /* Element.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1E63B163A116A002739C6 /* Element.m */; };
 		9DE1E63F163A11EF002739C6 /* SkateShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1E63E163A11EF002739C6 /* SkateShop.m */; };
 		9DE1E648163A195A002739C6 /* Base_Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1E647163A195A002739C6 /* Base_Board.m */; };
-		9DEB6BAE163F12BC00CDC13A /* testClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB6BAD163F12BC00CDC13A /* testClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,8 +52,6 @@
 		9DE1E63E163A11EF002739C6 /* SkateShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkateShop.m; sourceTree = "<group>"; };
 		9DE1E646163A195A002739C6 /* Base_Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base_Board.h; sourceTree = "<group>"; };
 		9DE1E647163A195A002739C6 /* Base_Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base_Board.m; sourceTree = "<group>"; };
-		9DEB6BAC163F12BC00CDC13A /* testClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testClass.h; sourceTree = "<group>"; };
-		9DEB6BAD163F12BC00CDC13A /* testClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +114,6 @@
 				9DE1E63E163A11EF002739C6 /* SkateShop.m */,
 				9DE1E637163A0FDD002739C6 /* almost.h */,
 				9DE1E638163A0FDD002739C6 /* almost.m */,
-				9DEB6BAC163F12BC00CDC13A /* testClass.h */,
-				9DEB6BAD163F12BC00CDC13A /* testClass.m */,
 			);
 			path = Week1;
 			sourceTree = "<group>";
@@ -211,7 +206,6 @@
 				9DE1E63C163A116A002739C6 /* Element.m in Sources */,
 				9DE1E63F163A11EF002739C6 /* SkateShop.m in Sources */,
 				9DE1E648163A195A002739C6 /* Base_Board.m in Sources */,
-				9DEB6BAE163F12BC00CDC13A /* testClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

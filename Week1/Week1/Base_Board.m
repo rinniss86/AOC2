@@ -27,7 +27,9 @@
 
 -(void)calcBoardWeight
 {
-    NSLog(@"You're board weighs has %f ", boardWeight);
+     boardWeight = numberOfLayers * 0.5f;
+    
+    NSLog(@"You're board weighs %f ", boardWeight);
 }
 
 -(NSString *)printName
