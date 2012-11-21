@@ -27,13 +27,14 @@
 
 -(void)calcBoardWeight
 {
-     boardWeight = numberOfLayers * 0.5f;
+     boardWeight = numberOfLayers * 0.50f;
     
     NSLog(@"You're board weighs %f ", boardWeight);
 }
 
 -(NSString *)printName
 {
+    boardWeight = numberOfLayers * 0.50f;
     NSString *retStringValue = [[NSString alloc] initWithFormat:@"Buy a %@ Deck, it weighs %f LBS", name, boardWeight];
     return retStringValue;
 }

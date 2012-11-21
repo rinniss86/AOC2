@@ -22,7 +22,7 @@
 //init
 -(id)init;
 
-//Method to calculate weight
+
 
 -(void)calcBoardWeight;
 -(NSString *)printName;
