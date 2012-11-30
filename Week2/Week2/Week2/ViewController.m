@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "SecondViewController.h"
 
-@interface UIViewController ()
+@interface ViewController ()
 
 @end
 
@@ -141,10 +141,10 @@
 
 -(IBAction)onClick:(UIButton *)sender
 {
-    InfoViewController * infoView = [[InfoViewController alloc] initWithNibName:@"InfoViewController" bundle:nil];
+    SecondViewController * secondView = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
     
-    if (infoView != nil) {
-        [self presentViewController:infoView animated:YES completion: NULL
+    if (secondView != nil) {
+        [self presentViewController:secondView animated:YES completion: NULL
          ];
     }
 }

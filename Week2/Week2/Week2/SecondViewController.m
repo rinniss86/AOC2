@@ -37,7 +37,7 @@
 
 -(IBAction)onClose:(id)sender
 {
-    [self dismissViewControllerAnimated:true completion:nil];
+    [self dismissViewControllerAnimated:TRUE completion:nil];
 }
 
 @end
