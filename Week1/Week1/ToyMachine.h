@@ -11,4 +11,15 @@
 
 @interface ToyMachine : Base_Board
 
+@property (assign)NSString *name;
+@property int numberOfLayers;
+@property double boardPrice;
+//init
+-(id)init;
+
+
+
+-(void)calcBoardWeight;
+-(NSString *)printPrice;
+
 @end

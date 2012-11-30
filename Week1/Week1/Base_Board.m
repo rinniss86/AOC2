@@ -15,7 +15,7 @@
 
 -(id)init;
 {
-    // initializing from superclass NSOject inheriting from it
+    // initializing from superclass NSObject inheriting from it
     self = [super init];
     if (self != nil)
     {
