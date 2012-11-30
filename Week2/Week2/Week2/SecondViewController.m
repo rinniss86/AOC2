@@ -37,7 +37,7 @@
 
 -(IBAction)onClose:(id)sender
 {
-    [self dismissModalViewControllerAnimated:true];
+    [self dismissViewControllerAnimated:true completion:nil];
 }
 
 @end
