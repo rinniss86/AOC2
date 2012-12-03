@@ -21,13 +21,13 @@
     // loads 0 as the intial display value 
     calcDisplay.text        =   @"0";
     
-    // couldnt find the info button on the xib so hard coded it in 
+    // couldnt find the info button
     infoButton = [UIButton buttonWithType:UIButtonTypeInfoDark];
     if (infoButton != nil)
     {
          infoButton.frame = CGRectMake(280.0f, 470.0f, 20, 20);
     }
-    // set button target to the onClick method - this is code from AOC 1 week 4
+    
     [infoButton addTarget:self action:@selector(onClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:infoButton];
     
