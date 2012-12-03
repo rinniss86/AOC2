@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9D7D914016669AB500CEBCF0"
-               BuildableName = "Week2.app"
-               BlueprintName = "Week2"
-               ReferencedContainer = "container:Week2.xcodeproj">
+               BlueprintIdentifier = "4539B19916404B500087800A"
+               BuildableName = "testApp.app"
+               BlueprintName = "testApp"
+               ReferencedContainer = "container:testApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4539B1C016404B500087800A"
+               BuildableName = "testAppTests.octest"
+               BlueprintName = "testAppTests"
+               ReferencedContainer = "container:testApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D7D914016669AB500CEBCF0"
-            BuildableName = "Week2.app"
-            BlueprintName = "Week2"
-            ReferencedContainer = "container:Week2.xcodeproj">
+            BlueprintIdentifier = "4539B19916404B500087800A"
+            BuildableName = "testApp.app"
+            BlueprintName = "testApp"
+            ReferencedContainer = "container:testApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -51,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D7D914016669AB500CEBCF0"
-            BuildableName = "Week2.app"
-            BlueprintName = "Week2"
-            ReferencedContainer = "container:Week2.xcodeproj">
+            BlueprintIdentifier = "4539B19916404B500087800A"
+            BuildableName = "testApp.app"
+            BlueprintName = "testApp"
+            ReferencedContainer = "container:testApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -69,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D7D914016669AB500CEBCF0"
-            BuildableName = "Week2.app"
-            BlueprintName = "Week2"
-            ReferencedContainer = "container:Week2.xcodeproj">
+            BlueprintIdentifier = "4539B19916404B500087800A"
+            BuildableName = "testApp.app"
+            BlueprintName = "testApp"
+            ReferencedContainer = "container:testApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
