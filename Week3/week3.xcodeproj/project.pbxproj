@@ -18,6 +18,8 @@
 		9D042DA3167065A200F52B34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D042DA2167065A200F52B34 /* Default-568h@2x.png */; };
 		9D042DA6167065A200F52B34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D042DA5167065A200F52B34 /* ViewController.m */; };
 		9D042DA9167065A200F52B34 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D042DA7167065A200F52B34 /* ViewController.xib */; };
+		9D042DB41670681000F52B34 /* AddEventView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D042DB31670681000F52B34 /* AddEventView.xib */; };
+		9D042DB71670694A00F52B34 /* AddEventView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D042DB61670694A00F52B34 /* AddEventView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		9D042DA4167065A200F52B34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9D042DA5167065A200F52B34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D042DA8167065A200F52B34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		9D042DB31670681000F52B34 /* AddEventView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEventView.xib; sourceTree = "<group>"; };
+		9D042DB51670694A00F52B34 /* AddEventView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventView.h; sourceTree = "<group>"; };
+		9D042DB61670694A00F52B34 /* AddEventView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				9D042DA5167065A200F52B34 /* ViewController.m */,
 				9D042DA7167065A200F52B34 /* ViewController.xib */,
 				9D042D93167065A200F52B34 /* Supporting Files */,
+				9D042DB31670681000F52B34 /* AddEventView.xib */,
+				9D042DB51670694A00F52B34 /* AddEventView.h */,
+				9D042DB61670694A00F52B34 /* AddEventView.m */,
 			);
 			path = week3;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 				9D042DA1167065A200F52B34 /* Default@2x.png in Resources */,
 				9D042DA3167065A200F52B34 /* Default-568h@2x.png in Resources */,
 				9D042DA9167065A200F52B34 /* ViewController.xib in Resources */,
+				9D042DB41670681000F52B34 /* AddEventView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				9D042D99167065A200F52B34 /* main.m in Sources */,
 				9D042D9D167065A200F52B34 /* AppDelegate.m in Sources */,
 				9D042DA6167065A200F52B34 /* ViewController.m in Sources */,
+				9D042DB71670694A00F52B34 /* AddEventView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddEventView.h
 //  week3
 //
 //  Created by Richard Inniss on 12/6/12.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AddEventView : UIViewController
 
--(IBAction)onClick:(id)sender;
 @end
