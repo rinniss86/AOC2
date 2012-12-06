@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "AddEventView.h"
+
 
 @interface ViewController ()
 
@@ -15,9 +15,24 @@
 
 @implementation ViewController
 
+
+-(void)eventRelay:(NSString *)eventString
+{
+    if(eventData !=nil)
+    {
+        eventData = [eventData stringByAppendingString:eventString];
+    }
+    else
+    {
+        eventData = [NSString stringWithFormat:@"%@", eventString];
+    }
+    eventList.text = eventData;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    eventList.text = @"All events go here ...";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -33,6 +48,7 @@
     AddEventView *addEvent = [[AddEventView alloc] initWithNibName:@"AddEventView" bundle:nil];
     if (addEvent !=nil)
     {
+        addEvent.customAddEventDelegate = self;
         [self presentViewController:addEvent animated:TRUE completion:NULL];
     }
 }
