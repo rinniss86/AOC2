@@ -34,7 +34,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // ah this was tricky tricky as it it is not in the xib...;)
+    
     datePicker.minimumDate = [NSDate date];
     
     // loads swipoe 

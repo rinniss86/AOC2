@@ -116,55 +116,6 @@
         }
     }
 }
-/*
- -(IBAction)sideViewPresent:(UIButton* )sender
- {
- 
- if (isTopView)
- {
- // announces the animation
- [UIView beginAnimations:nil context:nil];
- 
- // sets the animation duration
- [UIView setAnimationDuration:0.5f];
- 
- 
- topView.frame = CGRectMake(220.0f, 0.0f, topView.frame.size.width, topView.frame.size.height);
- isTopView = NO;
- 
- // commits animation
- [UIView commitAnimations];
- }
- else if (!isTopView)
- {
- // announces the animation
- [UIView beginAnimations:nil context:nil];
- 
- // sets the animation duration
- [UIView setAnimationDuration:0.5f];
- 
- // if the bottom view is the current move the top view over it
- topView.frame = originalTopViewFrame;
- isTopView = YES;
- 
- // commits animation
- [UIView commitAnimations];
- }
- 
- 
- 
- 
- */
-
-/*
- 
- [UIView beginAnimations:nil context:nil];
- 
- [UIView setAnimationDuration:3.0f];
- topView.frame = CGRectMake(250.0f, 0.0f, topView.frame.size.width, topView.frame.size.height);
- 
- [UIView commitAnimations];
- */
 
 
 
